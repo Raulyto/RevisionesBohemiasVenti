@@ -79,26 +79,40 @@ h1 {
     background-size: cover;
     text-shadow:3px 3px 0 black;
 }
-.section1 {
-    padding: 20px;
-    display: grid;
-    background-color: black;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    justify-items: center;
-    background-color: #313131;
+.contenedorP {
+    background-image: url(../img/1123013.jpg);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 200px;
+}
+.contenedorP2 {
+    background-image: url(../img/thumb-1920-1123012.jpg);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 200px;
 }
 h2 {
-    color: rgb(12, 228, 66);
+    text-align: center;
+    color: greenyellow;
+    text-shadow:3px 3px 0 black;
+    font-family: 'Luckiest Guy', cursive;
 }
-.card {
-    --bs-card-bg: #0e0101;
+.lista1 {
+    text-align: center;
+    color: rgb(32, 212, 32);
+    text-shadow:3px 3px 0 black;
+    font-family: 'Luckiest Guy', cursive;
 }
-.card-body {
-    padding: 50px;
-}
-.section1 p {
-    color: aliceblue;
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 h2 {
     padding: 20px;
@@ -393,14 +407,18 @@ header nav img {
     .img1 {
         border-radius: 5px;
     }
-    .section1 {
-        grid: none;
+    .contenedorP {
+        display: grid;
+    }
+    .contenedorP2 {
+        display: grid;
     }
     .pa1 {
         padding: 20px;
     }
     .section2 p {
         font-size: xx-large;
+        padding: 50px;
     }
     .section2 {
         padding: 10px;
@@ -418,6 +436,11 @@ header nav img {
     .p5 {
         flex-flow: column;
     }
+   .contenedor1 {
+    font-size: 25px;
+    text-shadow:3px 3px 0 black;
+    font-family: 'Luckiest Guy', cursive;
+   }
 }
 
 
