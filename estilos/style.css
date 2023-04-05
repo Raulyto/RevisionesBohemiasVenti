@@ -27,14 +27,8 @@ h1 {
 .navbar-collapse {
     justify-content: flex-end;
 }
-.titulo {
-    font-family: 'Luckiest Guy', cursive;
-    text-align: center;
-    color: rgb(236, 8, 8);
-    padding: 20px;
-    background-color: rgb(8, 8, 8);
-    margin-bottom: 0rem;
-    text-shadow:3px 3px 0 black;
+header .navbar {
+  background-color: rgb(8, 8, 8);
 }
 .videos {
     display: flex;
@@ -58,19 +52,6 @@ h1 {
 .resaltar {
     background-color: yellow
 }
-.parrafo1 {
-    padding: 300;
-    background-image: url(../img/3ee7459cfdbce3cce499d2fd0583f5a9.jpg);
-    background-position: center;
-    color: azure;
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 30px;
-    background-size: cover;
-}
-.resaltar2 {
-    background-color: yellowgreen;
-}
-/* INFORMACION */
 
 .admin {
     background-image: url(../img/Genshin-Impact-Wallpaper-32.jpg);
@@ -205,10 +186,7 @@ h2 {
 .p5 {
     display: flex;
     background-image: url(../img/kazuha.png);
-    padding: 100px;
-    background-size: cover;
-    align-items: center;
-    border: 5px black;
+  background-size: cover;
 }
 .parrafo5 {
     font-size: 35px;
@@ -232,10 +210,11 @@ h6 {
 
 /* CONTACTO */
 
-article.box {
-    text-align: center;
-    box-sizing: border-box;
-    width: 1000px;
+.fondo {
+  background-color: #313131;
+}
+.fondo article.box {
+  box-sizing: border-box;
     height: 700px;
     background-image: url(../img/image-1-3840x2160-6fb63d0b460b.jpg);
     background-size: cover;
@@ -316,10 +295,8 @@ footer {
     padding: 20px;
     font-family: 'Luckiest Guy', cursive;
 }
-/* MEDIA */ 
 
 @media (max-width: 576px) {
-
 header {
   flex-direction: column;
   flex-direction: row;
@@ -367,7 +344,6 @@ header nav img {
     font-size: 22px;
 }
 }
-
 @media (max-width: 768px) {
     .videos {
         flex-wrap: wrap;
