@@ -1,0 +1,11 @@
+@import 'vars';
+@import 'media';
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+    @include fuente-main;
+}
+
+  

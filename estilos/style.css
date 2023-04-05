@@ -1,422 +1,545 @@
-*
-{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+.icon-tw {
+  color: rgb(100, 65, 164);
 }
 
-/* Index */
+.icon-yt {
+  color: red;
+}
 
-header {
-    background-color: black;
+.icon-ds {
+  color: #7488dc;
 }
-h1 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(8, 8, 8);
-    padding: 20px;
-    color: rgb(236, 8, 8);
-    margin-bottom: 0rem;
-    text-shadow:3px 3px 0 black;
+
+.icon-tw {
+  color: rgb(100, 65, 164);
 }
-.navbar-nav {
-    font-size: 1.3rem;
+
+.icon-yt {
+  color: red;
 }
-.navbar-collapse {
-    justify-content: flex-end;
+
+.icon-ds {
+  color: #7488dc;
+}
+
+.icon-tw {
+  color: rgb(100, 65, 164);
+}
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(8, 8, 8);
+  padding: 20px;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.icon-tw {
+  color: rgb(100, 65, 164);
+}
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
+
+header .navbar-collapse {
+  justify-content: flex-end;
+  display: flex;
+  font-size: 1.3rem;
 }
 header .navbar {
   background-color: rgb(8, 8, 8);
 }
-.videos {
-    display: flex;
-    justify-content: space-around;
-    padding: 150px;
-    background-image: url(../img/HD-wallpaper-inazuma-genshin-impact.jpg);
-    gap: 20px;
-    background-size: cover;
+header .nav-link {
+  color: white;
 }
 
-.parrafo {
-    background-color: rgb(16, 238, 219);
-    background-image: url(../img/genshin-impact-nawpic-17.jpg);
-    padding: 300;
-    background-position: top center;
-    color: rgb(14, 175, 250);
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 30px;
-    background-size: cover;
+.icon-tw {
+  color: rgb(100, 65, 164);
 }
-.resaltar {
-    background-color: yellow
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
+
+.contenedor-main .contenedor__bloque1 {
+  background-image: url(../img/1123013.jpg);
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 200px;
+}
+.contenedor-main .contenedor__1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedor-main h2 {
+  color: rgb(22, 231, 22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Luckiest Guy", cursive;
+}
+.contenedor-main .lista1 {
+  color: rgb(22, 231, 22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Luckiest Guy", cursive;
+}
+.contenedor-main .contenedor__bloque2 {
+  background-image: url(../img/thumb-1920-1123012.jpg);
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 200px;
+}
+
+.section1 {
+  display: flex;
+  padding: 100px;
+  background-size: cover;
+  align-items: center;
+  flex-flow: row-reverse;
+  border: 5px rgb(8, 8, 8);
+  background-image: url(../img/jhr-estudio-de-fondo-dominio-gi.jpg);
+}
+.section1 .parrafo2 {
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
+  font-family: "Luckiest Guy", cursive;
+  color: azure;
+  padding: 100px;
+  font-size: 25px;
+}
+.section1 .parrafo2 .img1 {
+  transform: scale(-1);
+}
+
+.icon-tw {
+  color: rgb(100, 65, 164);
+}
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(8, 8, 8);
+  padding: 20px;
+  color: rgb(236, 8, 8);
+  margin-bottom: 0rem;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
 }
 
 .admin {
-    background-image: url(../img/Genshin-Impact-Wallpaper-32.jpg);
-    padding: 140px;
-    font-family: 'Luckiest Guy', cursive;
-    background-size: cover;
-    text-shadow:3px 3px 0 black;
+  background-image: url(../img/Genshin-Impact-Wallpaper-32.jpg);
+  padding: 140px;
+  font-family: "Luckiest Guy", cursive;
+  background-size: cover;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
 }
-.contenedorP {
-    background-image: url(../img/1123013.jpg);
-    background-size: cover;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    gap: 5px;
-    padding: 200px;
-}
-.contenedorP2 {
-    background-image: url(../img/thumb-1920-1123012.jpg);
-    background-size: cover;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    gap: 5px;
-    padding: 200px;
-}
-h2 {
-    text-align: center;
-    color: greenyellow;
-    text-shadow:3px 3px 0 black;
-    font-family: 'Luckiest Guy', cursive;
-}
-.lista1 {
-    text-align: center;
-    color: rgb(32, 212, 32);
-    text-shadow:3px 3px 0 black;
-    font-family: 'Luckiest Guy', cursive;
-}
-.contenedor1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-h2 {
-    padding: 20px;
-}
-.nombre {
-    font-family: 'Luckiest Guy', cursive;
-    border-radius: 20px;
-    background-color: orangered;
-    margin-bottom: 0rem;
-}
-.section2 {
-    display: flex;
-    padding: 100px;
-    background-size: cover;
-    align-items: center;
-    flex-flow: row-reverse;
-    border: 5px black;
-    text-align: justify;
-    background-image: url(../img/jhr-estudio-de-fondo-dominio-gi.jpg);
-}
-.parrafo2 {
-    text-shadow:3px 3px 0 black;
-    font-family: 'Luckiest Guy', cursive;
-}
-.section2 p {
-    color: aliceblue;
-    font-size: 20px;
-}
-.pa1 {
-    padding: 100px;
-    margin-bottom: 0rem;
-    text-shadow:3px 3px 0 black;
-    font-family: 'Luckiest Guy', cursive;
-}
-.img2 {
-    transform: scaleX(-1);
-}
-
-
-/* GALERIA */
-
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-row-gap: 60px;
-    padding: 40px;
-    justify-items: center;
-    background-color: #313131;
-}
-.galeria iframe {
-    width: 400px;
-    height: 300px;
-}
-
-/* EVENTOS */
 
 .stream {
-    text-align: center;
-    border: 5px black;
-    font-family: 'Luckiest Guy', cursive;
-    background-color: blueviolet;
-    color: azure;
-}
-#p1 .resaltado,
-#p2 .resaltado {
-    text-decoration: dashed;
-    padding: 20px;
-    font-size: 30px;
-    color: rgb(230, 30, 4);
-    background-color: rgb(32, 31, 32);
-}
-.p4 {
-    display: flex;
-    padding: 100px;
-    background-size: cover;
-    align-items: center;
-    flex-flow: row-reverse;
-    border: 5px black;
-    background-image: url(../img/inazuma.jpg);
-}
-.parrafo4 {
-    font-size: 35px;
-    font-family: 'Luckiest Guy', cursive;
-    padding: 100px;
-    color: yellowgreen;
-    margin-bottom: 0rem;
-    text-shadow:3px 3px 0 black;
-}
-.p5 {
-    display: flex;
-    background-image: url(../img/kazuha.png);
-  background-size: cover;
-}
-.parrafo5 {
-    font-size: 35px;
-    padding: 100px;
-    color: azure;
-    background-size: cover;
-    margin-bottom: 0rem;
-    text-shadow:3px 3px 0 black;
-}
-.parrafo3 {
-    padding: 100;
-    background-image: url(..//img//3ee7459cfdbce3cce499d2fd0583f5a9.jpg);
-    color: beige;
-    font-size: 30;
-}
-h6 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0rem;
+  text-align: center;
+  border: 5px rgb(8, 8, 8);
+  font-family: "Luckiest Guy", cursive;
+  background-color: blueviolet;
+  color: azure;
 }
 
-/* CONTACTO */
+.videos {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+  background-image: url(../img/HD-wallpaper-inazuma-genshin-impact.jpg);
+  gap: 20px;
+  background-size: cover;
+}
+
+.titulo {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  color: rgb(236, 8, 8);
+  padding: 20px;
+  background-color: rgb(8, 8, 8);
+  margin-bottom: 0rem;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
+}
+
+.parrafo .parrafo__1 {
+  background-color: rgb(16, 238, 219);
+  background-image: url(../img/genshin-impact-nawpic-17.jpg);
+  padding: 100px;
+  color: azure;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+  background-size: cover;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
+}
+.parrafo .parrafo__resaltar {
+  background-color: yellow;
+}
+.parrafo .parrafo__resaltar {
+  background-color: yellowgreen;
+}
+.parrafo .parrafo__2 {
+  background-image: url(../img/3ee7459cfdbce3cce499d2fd0583f5a9.jpg);
+  background-position: center;
+  color: azure;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+  background-size: cover;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
+  padding: 100;
+}
+
+.icon-tw {
+  color: rgb(100, 65, 164);
+}
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 60px;
+  padding: 40px;
+  justify-items: center;
+  background-color: #313131;
+}
+
+.galeria iframe {
+  width: 550px;
+  height: 300px;
+}
+
+.icon-tw {
+  color: rgb(100, 65, 164);
+}
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
+
+.icon-tw {
+  text-decoration: dashed;
+  padding: 20px;
+  font-size: 30px;
+  background-color: rgb(32, 31, 32);
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-yt {
+  text-decoration: dashed;
+  padding: 20px;
+  font-size: 30px;
+  background-color: rgb(32, 31, 32);
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section-main .section__primario {
+  display: flex;
+  padding: 100px;
+  background-size: cover;
+  align-items: center;
+  flex-flow: row-reverse;
+  border: 5px rgb(8, 8, 8);
+  background-image: url(../img/inazuma.jpg);
+}
+.section-main .section__parrafo {
+  font-size: 35px;
+  font-family: "Luckiest Guy", cursive;
+  padding: 100px;
+  color: yellowgreen;
+  margin-bottom: 0rem;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
+}
+.section-main .section__secundario {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/kazuha.png);
+  background-size: cover;
+}
+.section-main .section__parrafo2 {
+  font-size: 35px;
+  padding: 100px;
+  color: azure;
+  background-size: cover;
+  margin-bottom: 0rem;
+  text-shadow: 3px 3px 0 rgb(8, 8, 8);
+}
+
+.icon-tw {
+  color: rgb(100, 65, 164);
+}
+
+.icon-yt {
+  color: red;
+}
+
+.icon-ds {
+  color: #7488dc;
+}
 
 .fondo {
   background-color: #313131;
 }
 .fondo article.box {
   box-sizing: border-box;
-    height: 700px;
-    background-image: url(../img/image-1-3840x2160-6fb63d0b460b.jpg);
-    background-size: cover;
-    border: 5px solid black;
-    padding: 20px 20px;
-    margin: 25px auto;
+  height: 700px;
+  background-image: url(../img/image-1-3840x2160-6fb63d0b460b.jpg);
+  background-size: cover;
+  border: 5px solid rgb(8, 8, 8);
+  padding: 100px;
+  text-align: center;
 }
-h5 {
-    color: rgb(0, 0, 0);
-    font-size: 80px;
-    font-family: 'Luckiest Guy', cursive;
-    text-shadow: 3px 3px 0;
+.fondo h5 {
+  color: rgb(8, 8, 8);
+  font-size: 80px;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 3px 3px 0px;
+}
+.fondo .contenido2 {
+  margin-bottom: 20px;
+  padding: 40px;
+}
+.fondo .h5 {
+  color: rgb(8, 8, 8);
+  font-size: 80px;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 3px 3px 0px;
+}
+.fondo .nya {
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 1px 1px 0;
+}
+.fondo label {
+  padding: 10px 20px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  background-color: rgb(181, 65, 235);
+}
+.fondo .h4 {
+  padding: 20px;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 3px 3px 0px;
+}
+.fondo .form-select {
+  width: 128px;
+  display: flex;
+  display: inline-flex;
+}
+.fondo .input {
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 1px 1px 0;
+}
+.fondo .btn-primary {
+  --bs-btn-color: #c413cf;
+  --bs-btn-bg: #020202;
+  --bs-btn-border-color: #b40bbb00;
+  --bs-btn-hover-color: #c413cf;
+  --bs-btn-hover-bg: #dce1e9;
+  --bs-btn-hover-border-color: #c413cf;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #c413cf;
+  --bs-btn-active-border-color: #c413cf;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #c413cf;
+  --bs-btn-disabled-border-color: #c413cf;
+}
+.fondo .d-grid {
+  padding: 2px;
 }
 
-form {
-    padding: 100px;
+.icon-tw {
+  color: rgb(100, 65, 164);
 }
-.contenido2 {
-    margin-bottom: 20px;
-    padding: 40px;
+
+.icon-yt {
+  color: red;
 }
-label {
-    padding: 10px 20px;
-    border-radius: 40px;
-    margin-bottom: 20px;
-    background-color: rgb(181, 65, 235);
+
+.icon-ds {
+  color: #7488dc;
 }
-input {
-    margin-bottom: 20px;
-}
-.parrafoo {
-    color: aliceblue;
-}
-.nya {
-    font-family: 'Luckiest Guy', cursive;
-    text-shadow: 1px 1px 0;
-}
-h4 {
-    padding: 20px;
-    font-family: 'Luckiest Guy', cursive;
-    text-shadow: 2px 1px 0;
-}
-.input {
-    font-family: 'Luckiest Guy', cursive;
-    text-shadow: 1px 1px 0;
-}
-.form-select {
-    width: 128px;
-    display: flex;
-    display: inline-flex
-}
-.fondo {
-    background-color: #313131;
-}
-.d-grid {
-    padding: 2px;
-}
-.btn-primary {
-    --bs-btn-color: #c413cf;
-    --bs-btn-bg: #020202;
-    --bs-btn-border-color: #b40bbb00;
-    --bs-btn-hover-color: #c413cf;
-    --bs-btn-hover-bg: #dce1e9;
-    --bs-btn-hover-border-color: #c413cf;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #c413cf;
-    --bs-btn-active-border-color: #c413cf;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #c413cf;
-    --bs-btn-disabled-border-color: #c413cf;
-}
-footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(10, 10, 10);
-    padding: 20px;
-    font-family: 'Luckiest Guy', cursive;
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 576px) {
-header {
-  flex-direction: column;
-  flex-direction: row;
-  align-items: self-end;
-}
-nav ul {
+  header {
+    flex-direction: column;
+    flex-direction: row;
+    align-items: self-end;
+  }
+  nav ul {
     font-size: 12px;
-}
-.videos {
+  }
+  .videos {
     flex-wrap: wrap;
-}
-iframe {
+  }
+  iframe {
     width: 500px;
     height: 300px;
-}
-.parrafo {
+  }
+  .parrafo {
+    flex-direction: column;
+  }
+  .parrafo__1 {
     display: flex;
     justify-content: center;
-}
-.parrafo1 {
+  }
+  .parrafo1 {
     padding: 100px;
-}
-.parrafo2 {
+  }
+  .parrafo__2 {
     display: flex;
     justify-content: center;
-}
-
-.galeria {
-  justify-content: center;
-}
-form {
+  }
+  .galeria {
+    justify-content: center;
+  }
+  form {
     display: flex;
-}
-.box {
+  }
+  .box {
     display: table;
-}
-header nav img {
+  }
+  header nav img {
     width: 40px;
     height: 40px;
-}
-.section2 {
+  }
+  .section2 {
     flex-direction: column-reverse;
-}
-.section2 p {
+  }
+  .section2 p {
     font-size: 22px;
-}
+  }
 }
 @media (max-width: 768px) {
-    .videos {
-        flex-wrap: wrap;
-        padding: 100px;
-    }
-    iframe {
-        width: 500px;
-        height: 300px;
-    }
-    .parrafo {
-        display: flex;
-        justify-content: center;
-    }
-    .parrafo1 {
-        padding: 160px;
-    }
-    .parrafo2 {
-        display: flex;
-        justify-content: center;
-        padding: 150px;
-    }
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-    .galeria iframe {
-        width: 200px;
-        height: 200px;
-    }
-    form {
-        display: flex;
-        padding: 10;
-    }
-    .nombre {
-        padding: 5px;
-    }
-    .img1 {
-        border-radius: 5px;
-    }
-    .contenedorP {
-        display: grid;
-    }
-    .contenedorP2 {
-        display: grid;
-    }
-    .pa1 {
-        padding: 20px;
-    }
-    .section2 p {
-        font-size: xx-large;
-        padding: 50px;
-    }
-    .section2 {
-        padding: 10px;
-        display: table-footer-group;
-    }
-    .card {
-        width: 100%;
-        height: 30rem;
-    }
-    .p4 {
-        flex-flow: column;
-        padding: 10px;
-        padding-bottom: 100px;
-    }
-    .p5 {
-        flex-flow: column;
-    }
-   .contenedor1 {
+  .videos {
+    flex-wrap: wrap;
+    padding: 100px;
+  }
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+  .parrafo {
+    display: flex;
+    justify-content: center;
+  }
+  .parrafo1 {
+    padding: 160px;
+  }
+  .parrafo2 {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+  }
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .galeria iframe {
+    width: 200px;
+    height: 200px;
+  }
+  form {
+    display: flex;
+    padding: 10;
+  }
+  .nombre {
+    padding: 5px;
+  }
+  .img1 {
+    border-radius: 5px;
+  }
+  .contenedorP {
+    display: grid;
+  }
+  .contenedorP2 {
+    display: grid;
+  }
+  .pa1 {
+    padding: 20px;
+  }
+  .section2 p {
+    font-size: xx-large;
+    padding: 50px;
+  }
+  .section2 {
+    padding: 10px;
+    display: table-footer-group;
+  }
+  .card {
+    width: 100%;
+    height: 30rem;
+  }
+  .p4 {
+    flex-flow: column;
+    padding: 10px;
+    padding-bottom: 100px;
+  }
+  .p5 {
+    flex-flow: column;
+  }
+  .contenedor1 {
     font-size: 25px;
-    text-shadow:3px 3px 0 black;
-    font-family: 'Luckiest Guy', cursive;
-   }
+    text-shadow: 3px 3px 0 black;
+    font-family: "Luckiest Guy", cursive;
+  }
 }
 
-
+/*# sourceMappingURL=style.css.map */

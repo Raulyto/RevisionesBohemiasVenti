@@ -1,0 +1,75 @@
+//index
+@import 'vars';
+
+h1 {
+  @include fuente-main;
+  @include tamaño-main;
+  display: flex;
+  justify-content: center;
+  background-color: $maincolor;
+  padding: 20px;
+  color: $colorR;
+  margin-bottom: 0rem;
+  text-shadow: 3px 3px 0 $maincolor;
+}
+.admin {
+    background-image: url(../img/Genshin-Impact-Wallpaper-32.jpg);
+    padding: 140px;
+    @include fuente-main;
+    background-size: cover;
+    text-shadow: 3px 3px 0 $maincolor;
+  }
+.stream {
+    text-align: center;
+    border: 5px $maincolor;
+    @include fuente-main;
+    background-color: blueviolet;
+    color: $colorA;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    background-image: url(../img/HD-wallpaper-inazuma-genshin-impact.jpg);
+    gap: 20px;
+    background-size: cover
+}
+.titulo {
+    @include fuente-main;
+    text-align: center;
+    color: $colorR;
+    padding: 20px;
+    background-color: $maincolor;
+    margin-bottom: 0rem;
+    text-shadow: 3px 3px 0 $maincolor;
+}
+
+.parrafo {
+    .parrafo__1 {
+        background-color: rgb(16, 238, 219);
+        background-image: url(../img/genshin-impact-nawpic-17.jpg);
+        padding: 100px;
+        color: $colorA;
+        @include fuente-main;
+        @include tamaño-main;
+        background-size: cover;
+        text-shadow: 3px 3px 0 $maincolor;
+    }
+    .parrafo__resaltar {
+        background-color: yellow;
+    }
+    .parrafo__resaltar {
+        background-color: yellowgreen;
+    }
+    .parrafo__2 {
+        background-image: url(../img/3ee7459cfdbce3cce499d2fd0583f5a9.jpg);
+        background-position: center;
+        color: azure;
+        @include fuente-main;
+        @include tamaño-main;
+        background-size: cover;
+        text-shadow: 3px 3px 0 $maincolor;
+        padding: 100;
+    }
+}

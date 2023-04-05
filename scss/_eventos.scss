@@ -1,0 +1,55 @@
+//eventos
+@import 'vars';
+.icon-tw {
+    text-decoration: dashed;
+    padding: 20px;
+    @include tamaño-main;
+    background-color: rgb(32, 31, 32);
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .icon-yt {
+    text-decoration: dashed;
+    padding: 20px;
+    @include tamaño-main;
+    background-color: rgb(32, 31, 32);
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .section-main {
+      .section__primario {
+          display: flex;
+          padding: 100px;
+          background-size: cover;
+          align-items: center;
+          flex-flow: row-reverse;
+          border: 5px $maincolor;
+          background-image: url(../img/inazuma.jpg);
+      }
+      .section__parrafo {
+          font-size: 35px;
+          @include fuente-main;
+          padding: 100px;
+          color: yellowgreen;
+          margin-bottom: 0rem;
+          text-shadow: 3px 3px 0 $maincolor;
+      }
+      .section__secundario {
+          padding: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url(../img/kazuha.png);
+          background-size: cover;
+      }
+      .section__parrafo2 {
+          font-size: 35px;
+          padding: 100px;
+          color: $colorA;
+          background-size: cover;
+          margin-bottom: 0rem;
+          text-shadow:3px 3px 0 $maincolor;
+      }
+  }

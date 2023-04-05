@@ -1,0 +1,28 @@
+//vars
+$maincolor: rgb(8, 8, 8);
+$colorG: rgb(22, 231, 22);
+$colorR: rgb(236, 8, 8);
+$colorA: azure;
+
+@mixin borde {
+    border-radius: 40px;
+}
+@mixin tamaño-main {
+    font-size: 30px;
+}
+@mixin fuente-main {
+    font-family: "Luckiest Guy", cursive;
+}
+@mixin sombra {
+    text-shadow: 3px 3px 0px;
+}
+$red-social: (
+    tw: rgb(100 65 164),
+    yt: red,
+    ds: #7488dc,
+);
+@each $nombre, $valor in $red-social {
+    .icon-#{$nombre} {
+        color: $valor;
+    }
+};

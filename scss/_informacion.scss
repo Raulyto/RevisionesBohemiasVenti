@@ -1,0 +1,60 @@
+//informacion
+@import 'vars';
+.contenedor-main {
+    .contenedor__bloque1 {
+        background-image: url(../img/1123013.jpg);
+        background-size: cover;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        padding: 200px;
+    }
+    .contenedor__1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h2 {
+        color: $colorG;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+    }
+    .lista1 {
+        color: $colorG;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include fuente-main;
+    }
+    .contenedor__bloque2 {
+        background-image: url(../img/thumb-1920-1123012.jpg);
+        background-size: cover;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        padding: 200px;
+    }
+}
+.section1 {
+    display: flex;
+    padding: 100px;
+    background-size: cover;
+    align-items: center;
+    flex-flow: row-reverse;
+    border: 5px $maincolor;
+    background-image: url(../img/jhr-estudio-de-fondo-dominio-gi.jpg);
+     .parrafo2 {
+        text-shadow: 3px 3px 0 $maincolor;
+        @include fuente-main;
+        color: $colorA;
+        padding: 100px;
+        font-size: 25px;
+        .img1 {
+            transform: scale(-1);
+        }
+    }
+}
