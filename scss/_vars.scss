@@ -16,13 +16,3 @@ $colorA: azure;
 @mixin sombra {
     text-shadow: 3px 3px 0px;
 }
-$red-social: (
-    tw: rgb(100 65 164),
-    yt: red,
-    ds: #7488dc,
-);
-@each $nombre, $valor in $red-social {
-    .icon-#{$nombre} {
-        color: $valor;
-    }
-};

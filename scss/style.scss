@@ -1,6 +1,3 @@
-@import 'media';
-@import 'footer';
-@import 'header';
 @import 'informacion';
 @import 'index';
 @import 'galeria';
@@ -12,6 +9,26 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+}
+header {
+    .navbar-collapse {
+        justify-content: flex-end;
+        display: flex;
+        font-size: 1.3rem;
+    }
+    .navbar {
+        background-color: $maincolor;
+    }
+    .nav-link {
+        color: white;
+    }
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+    @include fuente-main;
 }
 
 @media (max-width: 576px) {
