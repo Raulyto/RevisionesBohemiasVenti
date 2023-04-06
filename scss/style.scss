@@ -10,6 +10,7 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 header {
     .navbar-collapse {
         justify-content: flex-end;
@@ -31,25 +32,24 @@ footer {
     @include fuente-main;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     header {
         flex-direction: column;
         flex-direction: row;
         align-items: self-end;
+        nav ul {
+            font-size: 12px;
+        }
     }
-    nav ul {
-        font-size: 12px;
-    }
-    .videos {
+} */
+/*     .videos {
         flex-wrap: wrap;
     }
     iframe {
         width: 500px;
         height: 300px;
     }
-    .parrafo {
-        flex-direction: column;
-    }
+
     .parrafo__1 {
         display: flex;
         justify-content: center;
@@ -61,7 +61,6 @@ footer {
         display: flex;
         justify-content: center;
     }
-
     .galeria {
         justify-content: center;
     }
@@ -81,9 +80,7 @@ footer {
     .section2 p {
         font-size: 22px;
     }
-}
-
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .videos {
         flex-wrap: wrap;
         padding: 100px;
@@ -156,4 +153,4 @@ footer {
     text-shadow:3px 3px 0 black;
     font-family: 'Luckiest Guy', cursive;
    }
-}
+} */

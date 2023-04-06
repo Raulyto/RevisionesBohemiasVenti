@@ -1,1 +1,5 @@
-@import 'vars';
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}

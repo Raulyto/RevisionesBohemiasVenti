@@ -1,6 +1,19 @@
 //index
 @import 'vars';
-
+@import 'media';
+header {
+    .navbar-collapse {
+        justify-content: flex-end;
+        display: flex;
+        font-size: 1.3rem;
+    }
+    .navbar {
+        background-color: $maincolor;
+    }
+    .nav-link {
+        color: white;
+    }
+}
 h1 {
   @include fuente-main;
   @include tamaño-main;
@@ -33,7 +46,11 @@ h1 {
     padding: 150px;
     background-image: url(../img/HD-wallpaper-inazuma-genshin-impact.jpg);
     gap: 20px;
-    background-size: cover
+    background-size: cover;
+    
+    @include mobile {
+        flex-wrap: wrap;
+    }
 }
 .titulo {
     @include fuente-main;
